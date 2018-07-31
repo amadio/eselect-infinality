@@ -1,12 +1,12 @@
 # -*-eselect-*-  vim: ft=eselect
-# Copyright 2005-2012 Gentoo Foundation
+# Copyright 2005-2018 Gentoo Foundation
 # Distributed under the terms of the GNU GPL version 2 or later
 #
 # Original author: MeisterP <poncho@spahan.ch>
-# Maintainer for Gentoo: Ben de Groot <yngwin@gentoo.org>
+# Maintainer for Gentoo: Guilherme Amadio <amadio@gentoo.org>
 
 DESCRIPTION="Manage the /etc/fonts/infinality/conf.d symlink"
-MAINTAINER="yngwin@gentoo.org"
+MAINTAINER="amadio@gentoo.org"
 VERSION="1"
 
 # find a list of symlink targets

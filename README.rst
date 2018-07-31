@@ -9,6 +9,7 @@ authors
 
 - MeisterP <poncho@spahan.ch>
 - Ben de Groot <yngwin@gentoo.org>
+- Guilherme Amadio <amadio@gentoo.org>
 
 license
 -------
