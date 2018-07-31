@@ -34,7 +34,7 @@ set_symlink() {
     [[ -z ${target} || ! -d ${EROOT}/etc/fonts/infinality/styles.conf.avail/${target} ]] \
         && die -q "Target \"$1\" doesn't appear to be valid!"
 
-    ln -s "styles.conf.avail/${target}" "${EROOT}/etc/fonts/infinality/conf.d"
+    ln -s "${EROOT}/etc/fonts/infinality/styles.conf.avail/${target}" "${EROOT}/etc/fonts/infinality/conf.d"
     echo "Selected style: ${target}"
     echo "You should set eselect lcdfilter to match your current style"
 }
